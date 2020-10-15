@@ -18,4 +18,8 @@
     - coc-explorer
 - install intelephense with npm
     - npm -g i intelephense
+- install ranger
+- install ranger devicons
+    - git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+- install ueberzug (Linux only)
 
