@@ -1,0 +1,23 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "php", "html", "yaml",  "json"],
+
+  // php config
+  "languageserver": {
+  "intelephense": {
+  "command": "intelephense",
+  "args": ["--stdio"],
+  "filetypes": ["php"],
+  "initializationOptions": {
+  "storagePath": "/tmp/intelephense"
+      }
+    }
+  },
+
+
+  "snippets.ultisnips.directories":
+  [
+    "UltiSnips",
+    "~/.config/nvim/utils/snips"
+  ]
+
+}

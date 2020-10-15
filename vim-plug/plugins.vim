@@ -16,5 +16,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'jiangmiao/auto-pairs'
 	" Onedark theme
 	Plug 'joshdick/onedark.vim'
+	" Coc Intellisense autocomplete
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-	call plug#end()
+call plug#end()
+
+
+autocmd VimEnter *
+  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \|   PlugInstall --sync | q
+  \| endif
