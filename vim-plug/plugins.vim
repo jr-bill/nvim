@@ -18,8 +18,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'joshdick/onedark.vim'
 	" Coc Intellisense autocomplete
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	" Airline and themes
+	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
 
-call plug#end()
+	call plug#end()
 
 
 autocmd VimEnter *
