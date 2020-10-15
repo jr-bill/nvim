@@ -15,6 +15,7 @@
     - coc-snippets
     - coc-vimlsp
     - coc-tsserver
+    - coc-explorer
 - install intelephense with npm
     - npm -g i intelephense
 
