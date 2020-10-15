@@ -1,6 +1,6 @@
 # nvim
 
-###Requirements
+### Requirements
 
 - python3
 - pynvim (pip install pynvim)
@@ -15,5 +15,6 @@
     - coc-snippets
     - coc-vimlsp
     - coc-tsserver
-
+- install intelephense with npm
+    - npm -g i intelephense
 
