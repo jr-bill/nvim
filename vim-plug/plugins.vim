@@ -23,6 +23,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'vim-airline/vim-airline-themes'
 	" Ranger plugin
 	Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+	" Colorizer
+	Plug 'norcalli/nvim-colorizer.lua'
+	" Rainbow brackets
+	Plug 'junegunn/rainbow_parentheses.vim'
 
 	call plug#end()
 
