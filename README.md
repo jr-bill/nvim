@@ -22,4 +22,9 @@
 - install ranger devicons
     - git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
 - install ueberzug (Linux only)
+- install fzf
+- install ripgrep
+- install universal-ctags-git
+- install the_silver_searcher
+- install fd
 
