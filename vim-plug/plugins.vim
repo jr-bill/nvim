@@ -32,6 +32,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'junegunn/fzf.vim'
 	" Vim Rooter
 	Plug 'airblade/vim-rooter'
+	" Commentary
+	Plug 'tpope/vim-commentary'
 
 	call plug#end()
 
