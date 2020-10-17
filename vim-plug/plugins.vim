@@ -34,6 +34,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'airblade/vim-rooter'
 	" Commentary
 	Plug 'tpope/vim-commentary'
+	" Vim startify
+	Plug 'mhinz/vim-startify'
 
 	call plug#end()
 
