@@ -41,6 +41,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'tpope/vim-fugitive'
 	Plug 'tpope/vim-rhubarb'
 	Plug 'junegunn/gv.vim'
+	" Quckscope for search in file
+	Plug 'unblevable/quick-scope'
 
 	call plug#end()
 
