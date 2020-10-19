@@ -35,8 +35,9 @@
     ],
     "v": "open:vsplit"
   },
-  "snippets.ultisnips.directories": [
-    "UltiSnips",
-    "~/.config/nvim/utils/snips"
-  ]
+  //"snippets.ultisnips.directories": [
+  //  "UltiSnips",
+  //  "~/.config/nvim/utils/snips"
+  //]
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
 }

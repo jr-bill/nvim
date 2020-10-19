@@ -49,6 +49,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'justinmk/vim-sneak'
 	" Floaterm terminal on Vim
 	Plug 'voldikss/vim-floaterm'
+	" Snippets with Coc / vim-sippets
+	Plug 'honza/vim-snippets'
 
 	call plug#end()
 
