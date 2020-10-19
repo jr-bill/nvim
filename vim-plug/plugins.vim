@@ -45,6 +45,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'unblevable/quick-scope'
 	" Which Key
 	Plug 'liuchengxu/vim-which-key'
+	" Vim Sneak remapping keys
+	Plug 'justinmk/vim-sneak'
 
 	call plug#end()
 
