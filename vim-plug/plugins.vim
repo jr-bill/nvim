@@ -51,6 +51,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'voldikss/vim-floaterm'
 	" Snippets with Coc / vim-sippets
 	Plug 'honza/vim-snippets'
+	" FAT Find & Replace
+	Plug 'ChristianChiarulli/far.vim'
 
 	call plug#end()
 

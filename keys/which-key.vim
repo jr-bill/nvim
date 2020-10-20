@@ -79,5 +79,12 @@ let g:which_key_map.t = {
   \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
   \ }
 
+" Find & Replace which key
+let g:which_key_map.f = {
+      \ 'name' : '+find & replace' ,
+      \ 'b' : [':Farr --source=vimgrep'    , 'buffer'],
+      \ 'p' : [':Farr --source=rgnvim'     , 'project'],
+      \ }
+
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")

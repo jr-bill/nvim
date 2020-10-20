@@ -13,5 +13,6 @@ source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/plug-config/sneak.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
 source $HOME/.config/nvim/plug-config/snippets.vim
+source $HOME/.config/nvim/plug-config/far.vim
 
 lua require'plug-colorizer'

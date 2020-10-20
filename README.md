@@ -16,6 +16,7 @@
     - coc-vimlsp
     - coc-tsserver
     - coc-explorer
+    - coc-marketplace
 - install intelephense with npm
     - npm -g i intelephense
 - install ranger
